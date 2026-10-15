@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get in touch with Eco-Cycle to discuss responsible electronics reuse and recycling." />
+    <title>Contact Eco-Cycle | Let's talk recycling</title>
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Eco-Cycle home"><span class="brand-mark"><i class="fas fa-recycle" aria-hidden="true"></i></span><span class="brand-name">eco<span>-cycle</span></span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a class="nav-cta active" aria-current="page" href="contact.html">Get in touch <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-heading">
+        <span class="eyebrow"><span></span> Contact Eco-Cycle</span>
+        <h1>Let’s make your next step<br /><em>a responsible one.</em></h1>
+        <p>Have devices to recycle, a question about our services, or an idea to share? We’d be glad to hear from you.</p>
+      </section>
+      <section class="contact-layout">
+        <div class="contact-intro">
+          <span class="eyebrow">We’re here to help</span>
+          <h2>Start a conversation<br />about your electronics.</h2>
+          <p>Tell us a little about what you need. Whether you’re an individual or an organization, we can help you consider a practical next step.</p>
+          <div class="contact-points">
+            <div class="contact-point"><i class="fas fa-recycle" aria-hidden="true"></i><span>Collection and recycling options</span></div>
+            <div class="contact-point"><i class="fas fa-laptop" aria-hidden="true"></i><span>Reuse and refurbishment guidance</span></div>
+            <div class="contact-point"><i class="fas fa-shield-alt" aria-hidden="true"></i><span>Data-aware device handling</span></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <h2>Send us a message</h2>
+          <p>Fill out the form below and we’ll be in touch.</p>
+          <div class="form-row">
+            <div class="form-field"><label for="name">Your name</label><input type="text" id="name" name="name" autocomplete="name" placeholder="e.g. Alex Morgan" required /></div>
+            <div class="form-field"><label for="email">Email address</label><input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required /></div>
+          </div>
+          <div class="form-field"><label for="message">How can we help?</label><textarea id="message" name="message" placeholder="Tell us about the devices or support you’re looking for..." required></textarea></div>
+          <button type="submit" class="button button-primary form-submit">Send message <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark"><i class="fas fa-recycle" aria-hidden="true"></i></span><span class="brand-name">eco<span>-cycle</span></span></a>
+      <p>Thoughtful technology recycling for a more circular future.</p><span class="footer-copy">&copy; 2026 Eco-Cycle. All rights reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
